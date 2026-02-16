@@ -12,6 +12,7 @@ app.use(routesAdmin);
 app.use((req,res)=>{
     res.send("<h1>404 Not Found</h1>");
 })
+console.log("This is changed ");
 
 app.listen(3000,()=>{
     console.log("Server Started.......");
